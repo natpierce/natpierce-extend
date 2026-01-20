@@ -108,7 +108,7 @@ case $ARCH in
         URL=$URL_AMD64
         TAG=$TAG_AMD64
         ;;
-    aarch64)
+    aarch64|arm64)
         URL=$URL_ARM64
         TAG=$TAG_ARM64
         ;;
